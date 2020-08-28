@@ -56,7 +56,7 @@ class DynamodbLocal < Formula
         <false/>
         <key>ProgramArguments</key>
         <array>
-          <string>#{opt_bin}/dynamodb-local</string>
+          <string>#{opt_bin}/dynamodb-local -sharedDb</string>
         </array>
         <key>StandardErrorPath</key>
         <string>#{log_path}</string>
